@@ -2,14 +2,14 @@
 tensorflow==1.15.2   # CPU Version of TensorFlow
 # tensorflow-gpu==1.15  # GPU version of TensorFlow
 tensorflow_hub==0.7
-# torch==1.7.0
+torch==1.6.0
 absl-py==0.10.0
 cachetools==4.1.1
 certifi==2020.6.20
-chardet==3.0.4p
+chardet==3.0.4
 click==7.1.2
 cloud-tpu-client==0.10
-dataclasses==0.6
+dataclasses
 filelock==3.0.12
 future==0.18.2
 google-api-core==1.22.1
@@ -30,7 +30,7 @@ numpy==1.19.1
 oauth2client==4.1.3
 oauthlib==3.1.0
 packaging==20.4
-Pillow==7.2.0
+Pillow==8.1.1
 protobuf==3.13.0
 pyasn1==0.4.8
 pyasn1-modules==0.2.8
@@ -47,11 +47,11 @@ scipy==1.5.2
 sentencepiece==0.1.91
 seqeval==0.0.12
 six==1.15.0
-tensorboard==1.15.0
+tensorboard
 tensorboard-plugin-wit==1.7.0
-tokenizers==0.8.1rc1
+tokenizers==0.10.2
 tqdm==4.48.2
-transformers==3.0.2
+transformers==4.5.0
 typing-extensions==3.7.4.3
 uritemplate==3.0.1
 urllib3==1.25.10
