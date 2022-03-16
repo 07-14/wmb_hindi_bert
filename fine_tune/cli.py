@@ -187,26 +187,4 @@ def main(argvec=None):
 
 
 if __name__ == '__main__':
-    # arg = ['--lang', 'gu',
-    #           '--dataset', 'wiki-cloze',
-    #           # use the right dataset key, check https://github.com/AI4Bharat/indic-bert/blob/master/fine_tune/cli.py#L10
-    #           '--model', 'ai4bharat/indic-bert',
-#           '--iglue_dir', './dataset',
-    #           '--output_dir', './output_dir',
-    #           '--max_seq_length', '128',
-    #           '--learning_rate', '2e-5',
-    #           '--num_train_epochs', '3',
-    #           '--train_batch_size', '32'
-    #           ]
-    arg = ['--lang', 'hi',
-              '--dataset', 'iitp-movie-reviews',
-              # use the right dataset key, check https://github.com/AI4Bharat/indic-bert/blob/master/fine_tune/cli.py#L10
-              '--model', 'ai4bharat/indic-bert',
-              '--iglue_dir', './dataset',
-              '--output_dir', './output_dir',
-              '--max_seq_length', '128',
-              '--learning_rate', '2e-5',
-              '--num_train_epochs', '3',
-              '--train_batch_size', '32'
-              ]
-    main(arg)
+    main()
